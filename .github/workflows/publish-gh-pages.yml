@@ -20,8 +20,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Install Japanese fonts
+        run: sudo apt install fonts-noto
+
       - name: Convert Markdown into HTML and PDF
         uses: KoharaKazuya/marp-cli-action@v4
+        with:
+          args: --image png
 
       - name: Uploade artifact
         uses: actions/upload-pages-artifact@v3

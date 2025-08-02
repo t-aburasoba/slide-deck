@@ -1,5 +1,10 @@
 ---
 marp: true
+title: "バイブコーディングでネイティブアプリを初めて作った話"
+description: "1週間でネイティブアプリを作り、1か月でストア公開した体験談。Claude Codeを活用した開発プロセスとポイントを紹介"
+url: "https://slides.ttsubasa.com/20250731_vibe_coding.html"
+image: "https://slides.ttsubasa.com/20250731_vibe_coding.png"
+author: "Ttsubasa"
 theme: default
 paginate: true
 backgroundColor: #1a1a1a
